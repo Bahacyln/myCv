@@ -1,0 +1,50 @@
+.ozgecmisBody{
+    width: 100%;
+    background-color: #e6dacfb9;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    min-height: 88vh;
+}
+
+.title{
+    font-size: 26px;
+    font-weight: 700;
+}
+.logoInput {
+    font-size: 25px;
+    color: #0050ff;
+}
+.mainTitle{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px 0px 60px 0px;
+}
+.titleAndDownloadBtn{
+    display: flex;
+    width: 600px;
+    padding-block: 20px;
+    justify-content: space-between;
+}
+.cvDownloadBtn{
+    width: 150px;
+    padding-inline: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    background-color: #0050ff;
+    color: #fff;
+    border: 2px solid #0050ff;
+    cursor: pointer;
+}
+.cvDownloadBtn:hover{
+    background-color: transparent;
+    color: #000;
+}
+.ozgecmisContainers{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

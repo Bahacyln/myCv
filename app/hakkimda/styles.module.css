@@ -1,0 +1,25 @@
+.background{
+    display: flex;
+    height: 92vh;
+    width: 100%;
+}
+.backgroundLeftSide{
+    background-color: #e6dacfb9;
+    height: 100%;
+    width: 100%;
+    flex:7
+}
+.backgroundRightSide{
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    flex: 9;
+}
+.containerBody{
+    width: 100%;
+    height: 92%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
