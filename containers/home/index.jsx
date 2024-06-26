@@ -1,10 +1,10 @@
-import React from 'react'
-import Hakkimda from '@/app/hakkimda/page'
+"use client"
+import { useRouter } from 'next/navigation';
+
 
 function HomeContainer() {
-  return (
-    <Hakkimda/>
-  )
+   const router = useRouter();
+   return router.push(`/hakkimda`);
 }
 
 export default HomeContainer
