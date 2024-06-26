@@ -1,0 +1,11 @@
+.projelerimBody {
+    background-color: #e6dacfb9;
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 65px;
+    overflow-x: auto;
+    padding-bottom: 50px;
+}

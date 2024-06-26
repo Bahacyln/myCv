@@ -1,8 +1,11 @@
-import React from 'react'
+import ProjectsComponent from "@/components/projectsComponent"
+import projelerData from "@/data/projelerData"
+
+
 
 function Projelerim() {
   return (
-    <div>Projelerim</div>
+    <ProjectsComponent array={projelerData}></ProjectsComponent>
   )
 }
 
