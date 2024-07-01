@@ -1,15 +1,15 @@
 import React from 'react'
 import styles from "./styles.module.css"
 import OzgecmisItem from '@/components/ozgecmisItem'
-import { MdOutlineDeveloperMode } from 'react-icons/md'
 import deneyimArray from '@/data/deneyimData'
 import universityArray from '@/data/egitimData'
 import skillsArray from '@/data/meslekiBecerilerData'
+import MainTitle from '@/components/mainTitle'
 
 function Ozgecmis() {
   return (
     <div className={styles.ozgecmisBody}>
-      <div className={styles.mainTitle}><MdOutlineDeveloperMode className={styles.logoInput}/>CV</div>
+      <MainTitle title={"CV"} ></MainTitle>
       <div className={styles.titleAndDownloadBtn}>
         <div className={styles.title}>Deneyim</div>
         <button className={styles.cvDownloadBtn} >CV İNDİR</button>

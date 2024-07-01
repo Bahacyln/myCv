@@ -2,17 +2,13 @@ import React from 'react'
 import styles from "./styles.module.css"
 import { BiSolidSquareRounded } from "react-icons/bi";
 import Image from 'next/image';
+import MainTitle from '../mainTitle';
 
 
 function ProjectsComponent({array=[]}) {
   return (
 <div className={styles.projelerimBody}>
-      <div className="flex items-center gap-1 mt-10 mb-0">
-        <BiSolidSquareRounded className="iconColor text-2xl" />
-        <div className='text-4xl font-bold tracking-wide'>
-          Projeler
-        </div>
-      </div>
+      <MainTitle title={"Projeler"}></MainTitle>
       <div className="max-w-2xl text-center tracking-wide text-base font-medium">
         Bu sayfada, üzerinde çalıştığım ve geliştirdiğim çeşitli projeleri bulabilirsiniz. Her bir proje, farklı teknolojiler ve çözümler kullanılarak geliştirilmiş olup, deneyimlerim ve yeteneklerim doğrultusunda şekillendirilmiştir.
       </div>

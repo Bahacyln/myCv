@@ -1,7 +1,7 @@
 .headerBody {
     display: flex;
     justify-content: space-between;
-    min-height: 90px !important;
+    min-height: 9vh !important;
     background: linear-gradient(180deg, rgb(255, 255, 255) 70% ,#bda08554);
     padding-inline: 5%;
 }

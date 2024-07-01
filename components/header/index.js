@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./styles.module.css"
 import Link from 'next/link'
 import { MdOutlineDeveloperMode } from "react-icons/md";
+import MainTitle from '../mainTitle';
 
 function Header() {
   return (
